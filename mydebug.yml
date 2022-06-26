@@ -5,8 +5,8 @@
    - name: i want to execute linux command
      command: hastname -f
      register: myresult
-     
-   - name: i want display myresult
+
+   - name: i want display 1st myresult
      debug:
         msg: "{{myresult}}"   
 
