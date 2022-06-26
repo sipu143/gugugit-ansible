@@ -2,9 +2,9 @@
 - hosts: mywebservers
   become: yes
   vars:
-   - myvars01: git
-   - myvars02: tree
-   - myvars03: git
+   myvars01: git
+   myvars02: tree
+   myvars03: wget
   tasks:
    - names: i want display myvars03 
      debug:
