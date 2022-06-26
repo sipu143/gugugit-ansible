@@ -8,4 +8,4 @@
   tasks:
    - names: i want display myvars03 
      debug:
-        msg: "{{myvars03}}"
+        msg: "{{wget}}"
