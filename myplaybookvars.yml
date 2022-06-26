@@ -2,9 +2,9 @@
 - hosts: 172.31.5.86
   become: yes
   vars:
-   myvars01: git
-   myvars02: tree
-   myvars03: wget
+   myvar01: git
+   myvar02: tree
+   myvar03: wget
   tasks:
    - names: i want display 
      debug:
