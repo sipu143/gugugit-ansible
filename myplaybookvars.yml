@@ -14,8 +14,8 @@
      apt:
        name: tree
        state: present
-  loop:
-   - git
-   - wget
-   - tree
+     loop:
+      - git
+      - wget
+      - tree
 
