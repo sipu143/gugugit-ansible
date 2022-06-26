@@ -1,4 +1,4 @@
 
 
-mywebpackinstallonubuntu= apache2
-mywebpackinstallonRedHat= httpd
+mywebpackinstallonubuntu: apache2
+mywebpackinstallonRedHat: httpd
